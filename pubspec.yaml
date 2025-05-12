@@ -1,0 +1,31 @@
+  name: space_heist_login
+  description: A creative and animated login page with a space heist theme
+  version: 1.0.0+1
+
+  environment:
+    sdk: ">=2.19.0 <3.0.0"
+
+  dependencies:
+    flutter:
+      sdk: flutter
+    cupertino_icons: ^1.0.5
+    simple_animations: ^5.0.2
+    supercharged: ^2.1.1
+    flutter_svg: ^2.0.7
+    rive: ^0.11.4
+    google_fonts: ^4.0.4
+    audio_session: ^0.1.16
+    just_audio: ^0.9.34
+    flutter_animate: ^4.2.0
+    audioplayers: ^5.1.0
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    flutter_lints: ^2.0.2
+
+  flutter:
+    uses-material-design: true
+    assets:
+      - assets/images/
+      - assets/audio/
